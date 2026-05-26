@@ -1,0 +1,20 @@
+{
+  "name": "Entity Chat",
+  "type": "personal_chat",
+  "id": 2,
+  "messages": [
+    {
+      "id": 10,
+      "type": "message",
+      "date": "2024-02-01T09:00:00",
+      "date_unixtime": "1706770800",
+      "from": "Alice",
+      "from_id": "user1",
+      "text": [
+        "Check ",
+        { "type": "link", "text": "this" },
+        " out"
+      ]
+    }
+  ]
+}

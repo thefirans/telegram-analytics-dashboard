@@ -1,0 +1,31 @@
+{
+  "name": "Media Chat",
+  "type": "personal_chat",
+  "id": 3,
+  "messages": [
+    {
+      "id": 20,
+      "type": "message",
+      "date": "2024-03-01T08:00:00",
+      "date_unixtime": "1709280000",
+      "from": "Alice",
+      "from_id": "user1",
+      "photo": "(File not included)",
+      "text": ""
+    },
+    {
+      "id": 21,
+      "type": "message",
+      "date": "2024-03-01T08:05:00",
+      "date_unixtime": "1709280300",
+      "from": "Bob",
+      "from_id": "user2",
+      "file": "(File not included)",
+      "file_name": "sticker.webp",
+      "media_type": "sticker",
+      "mime_type": "image/webp",
+      "sticker_emoji": "😂",
+      "text": ""
+    }
+  ]
+}

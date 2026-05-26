@@ -1,0 +1,74 @@
+{
+  "name": "Mixed Chat",
+  "type": "personal_chat",
+  "id": 4,
+  "messages": [
+    {
+      "id": 100,
+      "type": "message",
+      "date": "2024-04-01T10:00:00",
+      "date_unixtime": "1711965600",
+      "from": "Alice",
+      "from_id": "user1",
+      "text": "First"
+    },
+    {
+      "id": 101,
+      "type": "message",
+      "date": "2024-04-01T10:02:00",
+      "date_unixtime": "1711965720",
+      "from": "Bob",
+      "from_id": "user2",
+      "text": "Reply",
+      "edited": "2024-04-01T10:03:00"
+    },
+    {
+      "id": 102,
+      "type": "message",
+      "date": "2024-04-01T10:40:00",
+      "date_unixtime": "1711968000",
+      "from": "Alice",
+      "from_id": "user1",
+      "forwarded_from": "Channel",
+      "text": "Forwarded note"
+    },
+    {
+      "id": 103,
+      "type": "message",
+      "date": "2024-04-02T09:00:00",
+      "date_unixtime": "1712048400",
+      "from": "Bob",
+      "from_id": "user2",
+      "media_type": "voice_message",
+      "mime_type": "audio/ogg",
+      "file": "(File not included)",
+      "text": ""
+    },
+    {
+      "id": 104,
+      "type": "message",
+      "date": "2024-04-04T14:00:00",
+      "date_unixtime": "1712232000",
+      "from": "Alice",
+      "from_id": "user1",
+      "text": "Back again!"
+    },
+    {
+      "id": 105,
+      "type": "service",
+      "date": "2024-04-04T14:01:00",
+      "date_unixtime": "1712232060",
+      "from": "System",
+      "text": "ignored"
+    },
+    {
+      "id": 106,
+      "type": "message",
+      "date": "2024-04-04T14:10:00",
+      "date_unixtime": "1712232600",
+      "from": "Bob",
+      "from_id": "user2",
+      "text": "ok??!!"
+    }
+  ]
+}

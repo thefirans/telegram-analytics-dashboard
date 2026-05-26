@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Manrope", "Inter", sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at top left, rgba(51, 79, 132, 0.45), transparent 35%),
+    radial-gradient(circle at top right, rgba(18, 164, 148, 0.18), transparent 30%),
+    linear-gradient(180deg, #07111f 0%, #0b1220 30%, #0e1728 100%);
+  color: #ebf2ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glass-panel {
+  @apply border border-white/10 bg-white/5 shadow-2xl shadow-slate-950/30 backdrop-blur-xl;
+}
+
+.section-title {
+  @apply font-[var(--font-display)] text-xl font-semibold tracking-tight text-white md:text-2xl;
+}
+
+.section-copy {
+  @apply text-sm text-slate-300/85 md:text-base;
+}
