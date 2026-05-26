@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/telegram-analytics-dashboard/",
   test: {
     environment: 'node',
     coverage: {
